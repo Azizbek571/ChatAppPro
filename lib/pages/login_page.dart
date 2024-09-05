@@ -49,6 +49,7 @@ class LoginPage extends StatelessWidget {
             MyTextField(
               hintText: "Email",
               obscureText: false,
+              
               controller: _emailController,
             ),
             SizedBox(height: 20),
